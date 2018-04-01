@@ -7,4 +7,12 @@ class Post
     @author_name = @author
   end
 
+  def author_name
+    if self.author
+      self.author.name
+    else
+      nil
+    end
+  end
+
 end
