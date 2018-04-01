@@ -3,8 +3,8 @@ class Artist
 
   @@song_count = 0
 
-  def initialize(artist_name = "nil")
-    @artist_name = artist_name
+  def initialize(name = "nil")
+    @name = name
     @songs = []
   end
 
