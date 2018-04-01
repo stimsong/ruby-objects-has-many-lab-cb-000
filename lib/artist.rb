@@ -23,6 +23,7 @@ class Artist
     @songs << song
     song.artist = self
     @@song_count += 1
+    song.artist
   end
 
   def self.song_count
